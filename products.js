@@ -38,6 +38,8 @@ const KIT_BUNDLES = [
 
 window.K2_PRODUCTS = [
   // ── K² Training Kits (3 colorways, each = jersey + matching shorts) ──
+  // Drop 01 apparel — sold out, PDP shows the Drop 02 notify form instead
+  // of a buy flow.
   {
     id: "69fd95cd9f7d31545767a002",
     handle: "k2-training-kit-volt",
@@ -45,6 +47,7 @@ window.K2_PRODUCTS = [
     collection: "k2-merch",
     collectionLabel: "K2 Merch",
     type: "kit",
+    soldOut: true,
     bundles: KIT_BUNDLES,
     sizes: KIT_SIZES,
     images: [
@@ -66,6 +69,7 @@ window.K2_PRODUCTS = [
     collection: "k2-merch",
     collectionLabel: "K2 Merch",
     type: "kit",
+    soldOut: true,
     bundles: KIT_BUNDLES,
     sizes: KIT_SIZES,
     images: [
@@ -87,6 +91,7 @@ window.K2_PRODUCTS = [
     collection: "k2-merch",
     collectionLabel: "K2 Merch",
     type: "kit",
+    soldOut: true,
     bundles: KIT_BUNDLES,
     sizes: KIT_SIZES,
     images: [
@@ -110,6 +115,7 @@ window.K2_PRODUCTS = [
     collectionLabel: "Off The Back Fence",
     price: 35,
     compareAt: 45,
+    soldOut: true,
     images: [
       "https://assets.cdn.filesafe.space/95Zi6IzOKrEBwnGxIVYM/media/969ff0d1-0459-4042-88c3-bda6020f6723.png",
       "https://assets.cdn.filesafe.space/95Zi6IzOKrEBwnGxIVYM/media/1c51a127-d6d3-4899-97c7-f087f558edee.png",
@@ -126,6 +132,57 @@ window.K2_PRODUCTS = [
     materials: "Cotton/poly twill outer. Mesh side ventilation panels.",
     care: "Spot clean. Don't machine wash.",
   },
+  // ── K² Runner Caps — Drop 02 early item, buyable now while Drop 01
+  // apparel (above/below) is sold out. Single variant each, modeled
+  // exactly like k2-bucket-hat above.
+  {
+    id: "6ab0f953791299e19f49d7c4",
+    handle: "k2-runner-cap-blaze",
+    title: "K² Runner Cap · Blaze",
+    collection: "k2-merch",
+    collectionLabel: "K2 Merch",
+    price: 35,
+    compareAt: 45,
+    images: [
+      "https://assets.cdn.filesafe.space/95Zi6IzOKrEBwnGxIVYM/media/7fcbecd3-2a54-4bfc-aa29-c25ac64cadfe.png",
+      "https://assets.cdn.filesafe.space/95Zi6IzOKrEBwnGxIVYM/media/367ea173-5f92-43a7-8fe4-51e5c3860d46.png",
+      "https://assets.cdn.filesafe.space/95Zi6IzOKrEBwnGxIVYM/media/b783fe52-6eb7-4604-9845-bdb9fc260039.png",
+    ],
+    variants: [
+      { id: "v1", name: "Orange / Black", inStock: true },
+    ],
+    badge: "NEW",
+    description: "Lightweight 5-panel runner cap. Blaze orange ripstop front panel and brim, black mesh crown for airflow, black bound brim edge. K² mark and KSQUARED SPORTSTYLE wordmark on the front, K² hit on the side. Zip stash pocket on the side for a key or card, bungee cord cinch at the back. Built for the long run, the sideline, and the walk home from the ground.",
+    seoTitle: "K² Runner Cap Blaze | Orange 5-Panel Running Cap | Ksquared",
+    seoDescription: "Lightweight orange and black K² 5-panel runner cap with mesh crown, zip stash pocket and rear cord cinch. One size. Designed in Forestville, Sydney.",
+    fit: "Unisex. One size fits most. Rear bungee cinch for fine-tuning.",
+    materials: "Lightweight polyester ripstop front and brim. Breathable mesh crown.",
+    care: "Hand wash cold. Air dry. No tumble dry.",
+  },
+  {
+    id: "6ab0f95b4ff8f502f91ddb39",
+    handle: "k2-runner-cap-ghost",
+    title: "K² Runner Cap · Ghost",
+    collection: "k2-merch",
+    collectionLabel: "K2 Merch",
+    price: 35,
+    compareAt: 45,
+    images: [
+      "https://assets.cdn.filesafe.space/95Zi6IzOKrEBwnGxIVYM/media/23710da3-3c18-40c8-8f69-d5d6357e8479.png",
+      "https://assets.cdn.filesafe.space/95Zi6IzOKrEBwnGxIVYM/media/773612cf-cd0a-4270-a2ff-5b54f4459499.png",
+      "https://assets.cdn.filesafe.space/95Zi6IzOKrEBwnGxIVYM/media/16cf1da2-0da2-4867-b519-1ce0872157f0.png",
+    ],
+    variants: [
+      { id: "v1", name: "White / Grey", inStock: true },
+    ],
+    badge: "NEW",
+    description: "Lightweight 5-panel runner cap. White ripstop front panel and brim, light grey mesh crown for airflow, grey bound brim edge. Black K² mark and KSQUARED SPORTSTYLE wordmark on the front, K² hit on the side. Zip stash pocket on the side for a key or card, bungee cord cinch at the back. Clean enough for the pub, light enough for the run.",
+    seoTitle: "K² Runner Cap Ghost | White 5-Panel Running Cap | Ksquared",
+    seoDescription: "Lightweight white and grey K² 5-panel runner cap with mesh crown, zip stash pocket and rear cord cinch. One size. Designed in Forestville, Sydney.",
+    fit: "Unisex. One size fits most. Rear bungee cinch for fine-tuning.",
+    materials: "Lightweight polyester ripstop front and brim. Breathable mesh crown.",
+    care: "Hand wash cold. Air dry. No tumble dry.",
+  },
   {
     id: "69fd96cac23ecfc1e13c7c9d",
     handle: "k2-hoodie",
@@ -134,6 +191,7 @@ window.K2_PRODUCTS = [
     collectionLabel: "K2 Merch",
     price: 90,
     compareAt: 110,
+    soldOut: true,
     images: [
       "https://assets.cdn.filesafe.space/95Zi6IzOKrEBwnGxIVYM/media/7bbd0738-6dad-4036-8449-86b1f7809b59.png",
       "https://assets.cdn.filesafe.space/95Zi6IzOKrEBwnGxIVYM/media/168e4d19-402e-414e-a6f2-6a8a0a2234aa.png",
@@ -175,6 +233,7 @@ window.K2_PRODUCTS = [
     collectionLabel: "K2 Merch",
     price: 100,
     compareAt: 120,
+    soldOut: true,
     images: [
       "https://assets.cdn.filesafe.space/95Zi6IzOKrEBwnGxIVYM/media/850f50f6-aa88-41a9-b940-869ab823527f.png",
       "https://assets.cdn.filesafe.space/95Zi6IzOKrEBwnGxIVYM/media/5e290806-78ac-49ed-b752-6426e1097c9a.png",
