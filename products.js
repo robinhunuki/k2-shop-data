@@ -151,6 +151,8 @@ window.K2_PRODUCTS = [
     variants: [
       { id: "v1", name: "Orange / Black", inStock: true },
     ],
+    colourGroup: "k2-runner-cap",
+    colourLabel: "Orange / Black",
     badge: "NEW",
     description: "Lightweight 5-panel runner cap. Blaze orange ripstop front panel and brim, black mesh crown for airflow, black bound brim edge. K² mark and KSQUARED SPORTSTYLE wordmark on the front, K² hit on the side. Zip stash pocket on the side for a key or card, bungee cord cinch at the back. Built for the long run, the sideline, and the walk home from the ground.",
     seoTitle: "K² Runner Cap Blaze | Orange 5-Panel Running Cap | Ksquared",
@@ -175,6 +177,8 @@ window.K2_PRODUCTS = [
     variants: [
       { id: "v1", name: "White / Grey", inStock: true },
     ],
+    colourGroup: "k2-runner-cap",
+    colourLabel: "White / Grey",
     badge: "NEW",
     description: "Lightweight 5-panel runner cap. White ripstop front panel and brim, light grey mesh crown for airflow, grey bound brim edge. Black K² mark and KSQUARED SPORTSTYLE wordmark on the front, K² hit on the side. Zip stash pocket on the side for a key or card, bungee cord cinch at the back. Clean enough for the pub, light enough for the run.",
     seoTitle: "K² Runner Cap Ghost | White 5-Panel Running Cap | Ksquared",
