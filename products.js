@@ -141,7 +141,7 @@ window.K2_PRODUCTS = [
     title: "K² Runner Cap · Blaze",
     collection: "k2-merch",
     collectionLabel: "K2 Merch",
-    price: 35,
+    price: 30,
     compareAt: 45,
     images: [
       "https://assets.cdn.filesafe.space/95Zi6IzOKrEBwnGxIVYM/media/7fcbecd3-2a54-4bfc-aa29-c25ac64cadfe.png",
@@ -167,7 +167,7 @@ window.K2_PRODUCTS = [
     title: "K² Runner Cap · Ghost",
     collection: "k2-merch",
     collectionLabel: "K2 Merch",
-    price: 35,
+    price: 30,
     compareAt: 45,
     images: [
       "https://assets.cdn.filesafe.space/95Zi6IzOKrEBwnGxIVYM/media/23710da3-3c18-40c8-8f69-d5d6357e8479.png",
